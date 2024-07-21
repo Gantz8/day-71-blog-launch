@@ -32,6 +32,8 @@ This will install the packages from the requirements.txt for this project.
 # load_dotenv("C:/EnvironmentVariables/.env.txt")
 # FLASK_KEY = os.getenv("Uday_71_FLASK_KEY")
 # SQLALCHEMY_DATABASE_URI = os.getenv("Uday_71_SQLALCHEMY_DATABASE_URI")
+FLASK_KEY = os.environ["FLASK_KEY"]
+SQLALCHEMY_DATABASE_URI = os.environ["SQLALCHEMY_DATABASE_URI"]
 
 
 app = Flask(__name__)
