@@ -11,7 +11,7 @@ from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # Optional: add contact me email functionality (Day 60)
 # import smtplib
 
@@ -29,9 +29,9 @@ pip3 install -r requirements.txt
 This will install the packages from the requirements.txt for this project.
 '''
 
-load_dotenv("C:/EnvironmentVariables/.env.txt")
-FLASK_KEY = os.getenv("Uday_71_FLASK_KEY")
-SQLALCHEMY_DATABASE_URI = os.getenv("Uday_71_SQLALCHEMY_DATABASE_URI")
+# load_dotenv("C:/EnvironmentVariables/.env.txt")
+# FLASK_KEY = os.getenv("Uday_71_FLASK_KEY")
+# SQLALCHEMY_DATABASE_URI = os.getenv("Uday_71_SQLALCHEMY_DATABASE_URI")
 
 
 app = Flask(__name__)
